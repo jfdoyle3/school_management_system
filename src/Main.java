@@ -35,7 +35,8 @@ public class Main {
 
 
         System.out.println("---- Making GHS Pay Salary ----");
-        
+        lizzy.receiveSalary(lizzy.getSalary());
+        System.out.println("GHS has spent for salary to "+ lizzy.getName()+" and now has $"+ghs.getTotalMoneyEarned());
 
 
 
